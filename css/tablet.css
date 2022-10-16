@@ -1,0 +1,15 @@
+@media only screen and (min-width: 576px)  and (max-width: 1023px){
+       .namo {
+    display: none;
+   }
+    .chung-chi-1{
+        border-right: solid 1px #d6c08d;
+    }
+    .chung-chi-1-2{        
+        border-bottom: solid 1px #d6c08d;}    
+    .container-du-an{
+        padding-bottom: 20px ;
+    }
+    }
+   
+     

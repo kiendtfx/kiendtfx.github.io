@@ -1,0 +1,226 @@
+header{
+  background-image: url(/images/banner.jpg);
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+  text-banner {
+  position: absolute;
+  font-family: sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-nav-bar {
+  background-color: rgb(247, 247, 247);
+  overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+}
+.li{
+  float: center;
+  color: #02348b;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  border-right: 1px solid rgb(222, 222, 222);
+  font-size: 15px;
+}
+/*.container-target{
+  width: 100%;
+  height: auto;
+}*/
+#target {
+  border: 1px solid rgba(255, 255, 255, 0.8);  
+  font-size: 10 px;
+  text-align: left;
+  font-family: sans-serif;
+  background-color: rgba(234, 232, 232, 0.878);
+  justify-items: right;  
+
+}
+.target i{
+  color:#02348b ;
+}
+#personal-info{
+  background-color: rgb(236, 236, 236);
+  justify-items: left;
+  text-align: left; 
+}
+/*
+#job-info{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  row-gap: 10px;
+  column-gap: 25px;
+}*/
+.ti-le{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  text-align: center;  
+}
+  .container-content{
+  border: 1px solid rgba(234, 232, 232, 0.878);
+  padding-bottom: 40px;
+  }
+.icon{
+    text-align: center;
+    justify-items: center;
+    font-size: 30px;  
+  }
+.container-content i{
+    font-size: 30px;
+    text-align: center;   
+}
+.hien-tai{ background-color: rgb(36, 125, 208);
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  }
+  .hien{
+    display: flex;
+  }
+  .ngon-ngu-xanh {
+    background:  rgb(36, 125, 208);
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .ngon-ngu-xam {
+    background:  rgb(179, 188, 196);
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .so-thich-ic{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    padding-top: -20px;
+    
+  }
+  
+  .megaphone{
+    border: #02348b solid 1px;
+    display: flex;
+        justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;  
+    border-radius: 50%;  
+  }
+  .strategy{border: #02348b solid 1px;
+    display: flex;
+        justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;  
+    border-radius: 50%;  
+
+  }
+  .hotairballoon{
+    border: #02348b solid 1px;
+    display: flex;
+        justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;  
+    border-radius: 50%;      
+  }
+  .basket{
+    border: #02348b solid 1px;
+    display: flex;
+        justify-content: center;
+    height: 60px;
+    width: 60px;    
+    align-items: center;  
+    border-radius: 50%;  
+  }
+  .container-certificate {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  /* .chung-chi-1 {
+    border-right: solid 1px #d6c08d; */
+    /* margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  } */
+  /* .chung-chi-2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .chung-chi-3 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  } */
+  /* .chung-chi-1-2 {
+    /* display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); */
+    /* border-bottom: solid 1px #d6c08d; */
+    /* margin-bottom: 15px; */
+  
+  /* .chung-chi33 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+   */
+  
+  /* .container-du-an {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: center;
+    row-gap: 10px;
+    column-gap: 25px;
+    
+  } */
+  .container-du-an-1 {
+    border: 1px solid gray;
+ 
+  }
+  .container-du-an-2 {
+    border: 1px solid gray;
+  }
+  .container-du-an-3 {
+    border: 1px solid gray;
+  }
+  
+  .du-an-chung{ 
+    
+    font-size: larger;
+    text-align: left;
+    flex-direction: row;
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }  
+ .nam-2{background-color: rgb(36, 125, 208);
+  color: white;
+  border-radius: 5px;
+  padding: 0px;;
+
+ }
+ 
+.img-du-an{
+  border-bottom: 1px solid gray;
+}
+table, th, td {
+border:   1px solid gray;
+}
+.symbol{
+  display: flex; 
+  width: 100%;
+  height: auto;  
+  color: #02348b;
+  text-align: center;
+  font-size: 20px;
+}
